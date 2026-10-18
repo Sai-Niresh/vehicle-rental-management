@@ -1,0 +1,6 @@
+# Vercel configuration for Python Flask entrypoint
+# This file configures the Vercel entrypoint for deployments that expect a pyproject.toml
+# It intentionally only contains the Vercel tool section to point Vercel to the Flask app.
+
+[tool.vercel]
+entrypoint = "final_code.app:app"
